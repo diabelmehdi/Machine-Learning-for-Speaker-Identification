@@ -13,17 +13,8 @@ def add_user():
     
     name = input("Enter Name:")
 
-     # check for existing database
-    """if os.path.exists('./voicdfe_database'):
-        with open('./voicedff_database', 'rb') as database:
-            db = pickle.load(database)   
-            
-            if name in db or name == 'unknown':
-                print("Name Already Exists! Try Another Name...")
-                return
-    else:"""
+
     db = {}
-     #   print("DB not found")
     #Voice authentication
     FORMAT = pyaudio.paInt16
     CHANNELS = 2
