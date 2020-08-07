@@ -13,7 +13,6 @@ def add_user():
     
     name = input("Enter Name:")
 
-
     db = {}
     #Voice authentication
     FORMAT = pyaudio.paInt16

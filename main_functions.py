@@ -10,7 +10,6 @@ warnings.filterwarnings("ignore")
 from sklearn import preprocessing
 import python_speech_features as mfcc
 
-
 #Calculate and returns the delta of given feature vector matrix
 def calculate_delta(array):
     rows,cols = array.shape

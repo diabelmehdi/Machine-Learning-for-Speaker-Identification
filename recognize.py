@@ -5,7 +5,6 @@ import pickle
 import time
 from scipy.io.wavfile import read
 from IPython.display import Audio, display, clear_output
-
 from main_functions import *
 
 def recognize():
